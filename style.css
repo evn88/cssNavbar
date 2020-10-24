@@ -155,6 +155,14 @@ main {
   main {
     margin: 0;
   }
+
+  .navbar:hover .link-text {
+    display: none;
+  }
+
+  .navbar:hover {
+    width: 100vw;
+  }
 }
 
 /* Large screens */
@@ -172,14 +180,4 @@ main {
   .navbar:hover .link-text {
     display: inline;
   }
-
-  /* .navbar:hover .logo svg
-  {
-    margin-left: 11rem;
-  }
-
-  .navbar:hover .logo-text
-  {
-    left: 0px;
-  } */
 }
